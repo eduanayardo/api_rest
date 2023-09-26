@@ -124,7 +124,7 @@ En VSCode, ve al menú "Postman" en la barra laterla izquierda. Sigue estos paso
   <br />![Texto alternativo](images/postman_5.png)
 2. Colocamos la siguiente url:
 ```http
- http://localhost/api/items/read
+ http://localhost/api_rest/items/read
 ```
 3. agregamos el siguiente parametro:
    - Key: peticion
