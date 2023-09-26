@@ -1,4 +1,4 @@
-#Software necesario 
+# Software necesario 
 - [Git](https://git-scm.com/download/win)
 - [Xampp](https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/7.4.33/xampp-windows-x64-7.4.33-0-VC15-installer.exe/download)
 - [SQLyog](https://www.download.io/sqlyog-community-edition-download-windows.html)
@@ -6,7 +6,9 @@
   - Extensiones:
     - [Postman](https://marketplace.visualstudio.com/items?itemName=Postman.postman-for-vscode)
     - [Ionic](https://marketplace.visualstudio.com/items?itemName=ionic.ionic)
-#Qr
+
+
+# Qr
 ![qrSoftware](images/qr.png)
 
 
