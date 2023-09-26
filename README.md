@@ -1,4 +1,5 @@
 # Software necesario 
+- [Nodejs](https://nodejs.org/dist/v18.18.0/node-v18.18.0-x64.msi)
 - [Git](https://git-scm.com/download/win)
 - [Xampp](https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/7.4.33/xampp-windows-x64-7.4.33-0-VC15-installer.exe/download)
 - [SQLyog](https://www.download.io/sqlyog-community-edition-download-windows.html)
