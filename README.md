@@ -12,7 +12,7 @@
 ![qrSoftware](images/qr.png)
 
 
-#XAMPP
+# XAMPP
 ## Paso 1: Iniciar XAMPP
 
 1. Abre el menú Inicio o la pantalla de inicio de tu  Windows.
@@ -30,7 +30,7 @@ Para verificar MySQL, puedes acceder a la página de inicio de phpMyAdmin visita
 
 
 ****
-#SQLyog
+# SQLyog
 
 ## Paso 1: Abrir SQLyog
 
@@ -47,12 +47,10 @@ Si no estás conectado a la base de datos a la que deseas importar el archivo SQ
 ![Texto alternativo](images/sqlyog_2.png)
 2. Se abrirá una ventana de diálogo. Haz clic en el botón "..." para buscar y seleccionar el archivo SQL que deseas importar.
 ![Texto alternativo](images/sqlyog_3.png)
-  2.1. Ejecutar el archivo ***db_mexico_estructura.sql***
-  2.2. Ejecutar el archivo ***db_mexico_datos.sql***
-
-1. Asegúrate de que las opciones de importación estén configuradas correctamente. Puedes especificar el carácter de terminación de línea y otras configuraciones según tus necesidades.
-
-2. Haz clic en el botón "Execute" (Ejecutar) para iniciar la importación del archivo SQL.
+    2.1. Ejecutar el archivo ***db_mexico_estructura.sql***
+    2.2. Ejecutar el archivo ***db_mexico_datos.sql***
+3. Asegúrate de que las opciones de importación estén configuradas correctamente. Puedes especificar el carácter de terminación de línea y otras configuraciones según tus necesidades.
+4. Haz clic en el botón "Execute" (Ejecutar) para iniciar la importación del archivo SQL.
 ![Texto alternativo](images/sqlyog_4.png)
 
 ## Paso 4: Revisar los Resultados
@@ -132,8 +130,8 @@ En VSCode, ve al menú "Postman" en la barra laterla izquierda. Sigue estos paso
  http://localhost/api/items/read
 ```
 3. agregamos el siguiente parametro:
-   -  Key: peticion
-   -  Value: municipios
-![Texto alternativo](images/postman_6.png)
+   - Key: peticion
+   - Value: municipios
+   ![Texto alternativo](images/postman_6.png)
 4. Presionamos el botón "Send" y obtendremos la siguiente respuesta:
 ![Texto alternativo](images/respuesta_read.png)
