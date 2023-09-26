@@ -18,13 +18,13 @@
 1. Abre el menú Inicio o la pantalla de inicio de tu  Windows.
 2. Busca "XAMPP Control Panel" o "XAMPP" y ábrelo.
 3. Cuando se abra XAMPP Control Panel, verás una ventana con una lista de componentes como Apache, MySQL, PHP, entre otros.
-   ![Texto alternativo](images/xammp_1.png)
+  <br />![Texto alternativo](images/xammp_1.png)
 4. Para iniciar Apache y MySQL (los dos componentes principales para ejecutar aplicaciones web), simplemente haz clic en los botones "Iniciar" (junto a sus nombres. Deberían cambiar de color y mostrar "Ejecutándose" cuando estén activos.
-    ![Texto alternativo](images/xammp_2.png)
+  <br />![Texto alternativo](images/xammp_2.png)
 
 ## Paso 2: Verificar que los Servidores Están Funcionando
 Una vez que Apache y MySQL estén en ejecución, puedes verificar si están funcionando correctamente. Abre tu navegador web y visita `http://localhost` o `http://127.0.0.1`. Deberías ver la página de inicio de XAMPP, lo que indica que Apache está funcionando.
-![Texto alternativo](images/xammp_3.png)
+  <br />![Texto alternativo](images/xammp_3.png)
 
 Para verificar MySQL, puedes acceder a la página de inicio de phpMyAdmin visitando `http://localhost/phpmyadmin`. Si puedes iniciar sesión en phpMyAdmin, eso significa que MySQL está funcionando correctamente.
 
@@ -35,7 +35,7 @@ Para verificar MySQL, puedes acceder a la página de inicio de phpMyAdmin visita
 ## Paso 1: Abrir SQLyog
 
 Abre SQLyog en tu computadora. Asegúrate de que esté conectado a un servidor de base de datos MySQL antes de continuar.
-![Texto alternativo](images/sqlyog_1.png)
+  <br />![Texto alternativo](images/sqlyog_1.png)
 
 ## Paso 2: Conectar a la Base de Datos
 
@@ -44,19 +44,19 @@ Si no estás conectado a la base de datos a la que deseas importar el archivo SQ
 ## Paso 3: Importar el Archivo SQL
 
 1. En el menú superior, selecciona "Tools" (herramientas) y luego elige "Execute SQL Script" (Ejecutar script SQL).
-![Texto alternativo](images/sqlyog_2.png)
+  <br />![Texto alternativo](images/sqlyog_2.png)
 2. Se abrirá una ventana de diálogo. Haz clic en el botón "..." para buscar y seleccionar el archivo SQL que deseas importar.
-![Texto alternativo](images/sqlyog_3.png)
+  <br />![Texto alternativo](images/sqlyog_3.png)
     2.1. Ejecutar el archivo ***db_mexico_estructura.sql***
     2.2. Ejecutar el archivo ***db_mexico_datos.sql***
 3. Asegúrate de que las opciones de importación estén configuradas correctamente. Puedes especificar el carácter de terminación de línea y otras configuraciones según tus necesidades.
 4. Haz clic en el botón "Execute" (Ejecutar) para iniciar la importación del archivo SQL.
-![Texto alternativo](images/sqlyog_4.png)
+  <br />![Texto alternativo](images/sqlyog_4.png)
 
 ## Paso 4: Revisar los Resultados
 
 SQLyog ejecutará el archivo SQL y mostrará una ventana de importación exitosa o de error. Asegúrate de revisar los resultados para verificar que la importación se haya realizado correctamente.
-![Texto alternativo](images/sqlyog_5.png)
+<br />![Texto alternativo](images/sqlyog_5.png)
 
 ¡Eso es todo! Has importado con éxito un archivo SQL en SQLyog y ejecutado las consultas en tu base de datos.
 
@@ -108,23 +108,19 @@ class Database{
 Si aún no tienes Visual Studio Code instalado, puedes descargarlo desde el [sitio web oficial de VSCode](https://code.visualstudio.com/). Luego, sigue estos pasos para instalar la extensión "Postman":
 
 1. Abre Visual Studio Code.
-
 2. Ve al menú "Extensions" (Extensiones) en la barra lateral izquierda o presiona `Ctrl+Shift+X`.
-![Texto alternativo](images/postman_1.png)
-
-1. En el campo de búsqueda, escribe "Postman" y selecciona la extensión proporcionada por "Postman" y asegurarnos que es del editor verificado.
-![Texto alternativo](images/postman_2.png)
-
-2. Haz clic en el botón "Install" (Instalar) para instalar la extensión.
-![Texto alternativo](images/postman_3.png)
+  <br />![Texto alternativo](images/postman_1.png)
+3. En el campo de búsqueda, escribe "Postman" y selecciona la extensión proporcionada por "Postman" y asegurarnos que es del editor verificado.
+  <br />![Texto alternativo](images/postman_2.png)
+4. Haz clic en el botón "Install" (Instalar) para instalar la extensión.
+  <br />![Texto alternativo](images/postman_3.png)
 
 ## Paso 2: Crear una Solicitud
 
-En VSCode, ve al menú "Postman" en la barra laterla izquierda. Sigue estos pasos:
-![Texto alternativo](images/postman_4.png)
+En VSCode, ve al menú "Postman" en la barra laterla izquierda. Sigue estos pasos:  <br />![Texto alternativo](images/postman_4.png)
 
 1. Presionar el botón "New HTTP Request", el cual nos abrira una pestaña en la parte de nuestro editor.
-![Texto alternativo](images/postman_5.png)
+  <br />![Texto alternativo](images/postman_5.png)
 2. Colocamos la siguiente url:
 ```http
  http://localhost/api/items/read
@@ -132,6 +128,6 @@ En VSCode, ve al menú "Postman" en la barra laterla izquierda. Sigue estos paso
 3. agregamos el siguiente parametro:
    - Key: peticion
    - Value: municipios
-   ![Texto alternativo](images/postman_6.png)
+  <br />![Texto alternativo](images/postman_6.png)
 4. Presionamos el botón "Send" y obtendremos la siguiente respuesta:
-![Texto alternativo](images/respuesta_read.png)
+<br />![Texto alternativo](images/respuesta_read.png)
